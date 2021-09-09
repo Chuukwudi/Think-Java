@@ -13,13 +13,13 @@ String hello = <span style="color:red">"world"</span>; <br>
 
 | Expression                         | Result |
 |------------------------------------|--------|
-| yes == no || grade > amount        | true   |
-| amount == 40.0 || 50.0             | error  |
-| hiVal != loVal || loVal < 0        | true   |
-| True || hello.length() > 0         | error  |
+| yes == no \|\| grade > amount      | true   |
+| amount == 40.0 \|\| 50.0           | error  |
+| hiVal != loVal \|\| loVal < 0      | true   |
+| True \|\| hello.length() > 0       | error  |
 | hello.isEmpty() && yes             | false  |
 | grade <= 100 && !false             | true   |
-| !yes || no                         | false  |
+| !yes \|\| no                       | false  |
 | grade > 75 > amount                | error  |
 | amount <= hiVal && amount >= loVal | true   |
-| no && !no || yes && !yes           | false  |
+| no && !no \|\| yes && !yes         | false  |
